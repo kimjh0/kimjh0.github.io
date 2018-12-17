@@ -1,6 +1,6 @@
 ---
 title: "Posts by Month"
 permalink: /month-archive/
-layout: posts
+layout: archive
 author_profile: true
 ---
