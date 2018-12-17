@@ -1,1 +1,8 @@
 remote_theme : wild-flame/jekyll-simple
+
+# Site settings
+title: dev-note
+# email: your-email@domain.com
+
+baseurl: ""
+url: "https://kimjh0.github.io"
