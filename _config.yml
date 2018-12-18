@@ -16,7 +16,6 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-date_format              : "%Y년 %-m월 %-d일"
 title                    : "dev note"
 title_separator          : "-"
 name                     : "Kim Ji Hwan"
