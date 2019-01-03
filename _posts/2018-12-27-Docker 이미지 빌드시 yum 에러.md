@@ -5,6 +5,7 @@ tags:
 ---
 
 Docker 이미지 빌드 중 yum 명령에서 간헐적으로 에러 발생
+
 아래를 Dockerfile 상단에 입력하면 된다.
 
 ```docker
