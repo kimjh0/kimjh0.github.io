@@ -24,6 +24,7 @@ $ python -m pip install pyinstaller
 |-w|실행시 cmd 창을 표시하지 않음. *nix 에서는 무시|
 |-i|아이콘 적용|
 |--uac-admin|관리자 권한 실행|
+
 추가 설명 [https://pyinstaller.readthedocs.io/en/stable/usage.html]
 
 ### 제작
