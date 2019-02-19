@@ -32,14 +32,14 @@ $ python -m pip install pyinstaller
 $ pyinstaller script.py
 ```
 
-성공적으로 제작되면 dist 폴더에 exe 패키지가 생성됨, 해당 디렉토리 또는 파일을 배포
-또한 설치 환경(또는 Virtual Machine)에서 검증 해볼것
+- 성공적으로 제작되면 dist 폴더에 exe 패키지가 생성됨, 해당 디렉토리 또는 파일을 배포
+- 또한 설치 환경(또는 Virtual Machine)에서 검증 해볼것
 
 ## 이슈사항
 ### Support statical linking of Python library
 
-https://github.com/pyinstaller/pyinstaller/issues/420
-Python 3.7 64bit, venv 환경에서 PyInstaller 사용시 에러 발생
+- https://github.com/pyinstaller/pyinstaller/issues/420
+- Python 3.7 64bit, venv 환경에서 PyInstaller 사용시 에러 발생
 
 #### 원인
 
@@ -55,7 +55,6 @@ Python 3.7 64bit, venv 환경에서 PyInstaller 사용시 에러 발생
 - Python 3.6 64bit 문제 없음
 
 ### UAC not working in onefile again, migrate old UAC test
-https://github.com/pyinstaller/pyinstaller/issues/1729
-PyInstaller 의 onefile 옵션 사용시 UAC 동작 안함
-
-원인 분석 및 해결 안 함
+- https://github.com/pyinstaller/pyinstaller/issues/1729
+- PyInstaller 의 onefile 옵션 사용시 UAC 동작 안함
+- 원인 분석 및 해결 안 함
