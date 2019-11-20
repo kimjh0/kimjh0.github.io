@@ -13,6 +13,7 @@ tags:
 ## 방법
 
 - vs 프로젝트의 속성을 확인 (vcxproj 파일)
+
   ```
   ...
   <ImportGroup Label="PropertySheets">
@@ -24,6 +25,7 @@ tags:
 - 해당 위치로 이동하여 파일 수정
   - windows 10 에서 C:\Users\User\AppData\Local\Microsoft\MSBuild\v4.0 경로로 이동
   - Microsoft.Cpp.Win32.user.props 파일 수정
+  
   ```
   <?xml version="1.0" encoding="utf-8"?>
   <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
