@@ -7,8 +7,8 @@ tags:
 
 ## mysql password() 해싱 알고리즘
 
-mysql.user 테이블에는 사용자 아이디와 패스워드가 저장되어 있는데, 패스워드는 password() 함수로 해싱함  
-password() 는 sha1 알고리즘을 사용했는데 방법은 다음과 같다
+mysql.user 테이블에는 사용자 아이디와 패스워드가 저장되어 있는데, 패스워드는 password() 함수로 해싱함.  
+password() 는 sha1 알고리즘을 사용, 방법은 다음과 같다.
 
 ```sql
 MariaDB [mysql]> select sha1(unhex(sha1('1234')));
